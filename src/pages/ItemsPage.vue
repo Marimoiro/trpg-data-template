@@ -57,7 +57,9 @@ import TValue from "components/TValue.vue";
 import {ToBr} from "src/util";
 import {List} from "linqts";
 
-const items = new List(itemsJson as Item[]).Skip(1).ToArray()
+const items = new List(itemsJson as Item[]).Skip(1)
+  .Where(i => { return i != undefined && i.id != undefined && i.id.length > 0 })
+  .ToArray()
 
 
 
