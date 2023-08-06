@@ -1,7 +1,7 @@
 # オラクル シンドローム (oracle-dx3rd)
 
-解説ページ  
-https://marimoiro.github.io/dx3rd-syndrome-oracle/#/
+解説ページ
+https://marimoiro.github.io/trpg-data-template/#/
 
 
 ## Install the dependencies
