@@ -12,7 +12,7 @@
         />
 
         <q-toolbar-title>
-          ダブルクロス The 3rd Edition 非公式シンドローム オラクル
+          {{ store.title.value }}
         </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>
@@ -54,9 +54,12 @@
 import { ref } from 'vue';
 import EssentialLink, { EssentialLinkProps } from 'components/EssentialLink.vue';
 import PageLink from "components/PageLink.vue";
+import {useDetailStore} from "stores/details";
 
 const essentialLinks: EssentialLinkProps[] = [
 ];
+
+const store = useDetailStore();
 
 const leftDrawerOpen = ref(false)
 

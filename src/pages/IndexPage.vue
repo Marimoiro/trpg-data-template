@@ -13,7 +13,6 @@
     </t-card>
 
     <t-card :title="store.name + 'のデザイン'">
-      <q-img src="oracle_design.jpg"></q-img>
       <div v-html="ToBr(store.detail.value)"/>
     </t-card>
 

@@ -1,17 +1,29 @@
 
-$EffectsUri = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTIOMzn15lwry1dgLW9W5ZBoHry2pl6rMf4xdHTvHkq0CeL225Q0qFRklVGfJ6zUdcv6Z6sGK7YUmUz/pub?gid=1196424371&single=true&output=csv"
-$DRoycesUri = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTIOMzn15lwry1dgLW9W5ZBoHry2pl6rMf4xdHTvHkq0CeL225Q0qFRklVGfJ6zUdcv6Z6sGK7YUmUz/pub?gid=1947053862&single=true&output=csv"
-$DetailsUri = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTIOMzn15lwry1dgLW9W5ZBoHry2pl6rMf4xdHTvHkq0CeL225Q0qFRklVGfJ6zUdcv6Z6sGK7YUmUz/pub?gid=1203551871&single=true&output=csv"
-$UniqueItemUri = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTIOMzn15lwry1dgLW9W5ZBoHry2pl6rMf4xdHTvHkq0CeL225Q0qFRklVGfJ6zUdcv6Z6sGK7YUmUz/pub?gid=686984489&single=true&output=csv"
+# 解説シートのurlを貼ります
+$DetailsUri = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTm5ulwSRtrDNyck1hsB1EjR6vzNnu-bX3wjSjXGG46J0v7fwxYrrLA7FD48wKXZ7fxtWgLa7N79sgq/pub?gid=1203551871&single=true&output=csv"
 
-$ContactUri = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTIOMzn15lwry1dgLW9W5ZBoHry2pl6rMf4xdHTvHkq0CeL225Q0qFRklVGfJ6zUdcv6Z6sGK7YUmUz/pub?gid=1184365142&single=true&output=csv"
-$LicensesUri = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTIOMzn15lwry1dgLW9W5ZBoHry2pl6rMf4xdHTvHkq0CeL225Q0qFRklVGfJ6zUdcv6Z6sGK7YUmUz/pub?gid=876019519&single=true&output=csv"
+# エフェクトのurlを貼ります
+$EffectsUri = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTm5ulwSRtrDNyck1hsB1EjR6vzNnu-bX3wjSjXGG46J0v7fwxYrrLA7FD48wKXZ7fxtWgLa7N79sgq/pub?gid=1196424371&single=true&output=csv"
+
+# Dロイスのurlを貼ります
+$DRoycesUri = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTm5ulwSRtrDNyck1hsB1EjR6vzNnu-bX3wjSjXGG46J0v7fwxYrrLA7FD48wKXZ7fxtWgLa7N79sgq/pub?gid=1947053862&single=true&output=csv"
+
+# アイテムのurlを貼ります
+$UniqueItemUri = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTm5ulwSRtrDNyck1hsB1EjR6vzNnu-bX3wjSjXGG46J0v7fwxYrrLA7FD48wKXZ7fxtWgLa7N79sgq/pub?gid=686984489&single=true&output=csv"
+
+# 連絡先のurlを貼ります
+$ContactUri = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTm5ulwSRtrDNyck1hsB1EjR6vzNnu-bX3wjSjXGG46J0v7fwxYrrLA7FD48wKXZ7fxtWgLa7N79sgq/pub?gid=1184365142&single=true&output=csv"
+
+# ライセンスのurlを貼ります
+$LicensesUri = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTm5ulwSRtrDNyck1hsB1EjR6vzNnu-bX3wjSjXGG46J0v7fwxYrrLA7FD48wKXZ7fxtWgLa7N79sgq/pub?gid=876019519&single=true&output=csv"
 
 
 $outDir = $PSScriptRoot +  "/../src/data/"
 
 mkdir -Force -Path $outDir
 
+
+# url と出力先のファイル名を定義します
 $dataSet = @(
     @{ uri = $EffectsUri; out = "effects" },
     @{ uri = $DRoycesUri; out = "droyces" },

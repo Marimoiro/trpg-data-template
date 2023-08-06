@@ -24,6 +24,9 @@ jobs:
             ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
       - name: Install
         run: yarn install
+      - name: Download Data
+        run: .\scripts\Download-DataToJson.ps1
+        shell: pwsh
       - name: Build
         run: npm run build
       - name: List
