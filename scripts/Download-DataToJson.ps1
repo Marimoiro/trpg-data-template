@@ -20,7 +20,7 @@ $LicensesUri = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTm5ulwSRtrDNyck
 
 $outDir = $PSScriptRoot +  "/../src/data/"
 
-mkdir -Force -Path $outDir
+New-Item -ItemType directory -Name $outDir -Force
 
 
 # url と出力先のファイル名を定義します
