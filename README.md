@@ -1,4 +1,4 @@
-# オラクル シンドローム (oracle-dx3rd)
+# dX3rd データページテンプレート
 
 解説ページ
 https://marimoiro.github.io/trpg-data-template/#/
