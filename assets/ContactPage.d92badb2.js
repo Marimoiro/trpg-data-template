@@ -1,4 +1,4 @@
-import{Q as N,_ as s,a,b as c,T as A}from"./TTitle.60cc0a6f.js";import{_ as T}from"./EssentialLink.1556d825.js";import{F as u,G as e,I as o,J as n,K as i,S as I,T as O,Q as r,U as E,R as S}from"./index.7d120e5b.js";import"./render.ddcc96ba.js";import"./use-dark.49197b54.js";import"./use-router-link.422beb41.js";var h=[{title:"\u30C6\u30F3\u30D7\u30EC\u30FC\u30C8",url:"https://github.com/Marimoiro/trpg-data-template",license:`MIT License\r
+import{Q as N,_ as s,a,b as c,T as A}from"./TTitle.d6499e1e.js";import{_ as T}from"./EssentialLink.9f355071.js";import{F as u,G as e,I as o,J as n,K as i,S as I,T as O,Q as r,U as E,R as S}from"./index.c8a9474a.js";import"./render.f3285ba0.js";import"./use-dark.943ff361.js";import"./use-router-link.59f610b1.js";var h=[{title:"\u30C6\u30F3\u30D7\u30EC\u30FC\u30C8",url:"https://github.com/Marimoiro/trpg-data-template",license:`MIT License\r
 \r
 Copyright (c) 2023 Marimoiro\r
 \r
