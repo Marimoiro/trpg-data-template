@@ -1,9 +1,9 @@
 # TRPG データページテンプレート
 
-サンプルページ
+サンプルページ  
 https://marimoiro.github.io/trpg-data-template/#/
 
-データサンプルの Google Spread Sheet
+データサンプルの Google Spread Sheet  
 https://docs.google.com/spreadsheets/d/1vNEaP-Nd96Wscstda9E5Td5JgkYSrUsRdlYRpBZEwDs/edit#gid=1203551871
 
 ## これなに？
