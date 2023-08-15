@@ -50,7 +50,7 @@ https://docs.google.com/spreadsheets/d/1vNEaP-Nd96Wscstda9E5Td5JgkYSrUsRdlYRpBZE
 
 ### 手順5. データのURLを変更します。
 
-(scripts/Download-DataToJson.ps1)[https://github.com/Marimoiro/trpg-data-template/blob/main/scripts/Download-DataToJson.ps1]を変更します。
+[scripts/Download-DataToJson.ps1](https://github.com/Marimoiro/trpg-data-template/blob/main/scripts/Download-DataToJson.ps1)を変更します。
 
 メニュー > ファイル共有 > ウェブに公開 でそれぞれのurlを取得して書き換えてください。 「"」は消さないように注意してください。  
 その後シートを少し書き換えてみてください。
