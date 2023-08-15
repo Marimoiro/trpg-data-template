@@ -82,7 +82,7 @@ quasar dev
 
 でサーバーが立ち上がります。
 
-データの更新は、(scripts/Download-DataToJson.ps1)[https://github.com/Marimoiro/trpg-data-template/blob/main/scripts/Download-DataToJson.ps1]をたたけば、[tree/main/src/data]にあるデータjsonが更新されます。
+データの更新は、[scripts/Download-DataToJson.ps1](https://github.com/Marimoiro/trpg-data-template/blob/main/scripts/Download-DataToJson.ps1)をたたけば、[tree/main/src/data]にあるデータjsonが更新されます。
 
 
 
