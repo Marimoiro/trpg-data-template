@@ -1,8 +1,8 @@
 {
   "name": "oracle-dx3rd",
   "version": "0.0.1",
-  "description": "オラクルの詳細",
-  "productName": "オラクル シンドローム",
+  "description": "TRPG データテンプレート",
+  "productName": "TRPG のデータを表示するquasarプロジェクトのテンプレートです、",
   "author": "marimoiro <5342721+Marimoiro@users.noreply.github.com>",
   "private": true,
   "scripts": {
